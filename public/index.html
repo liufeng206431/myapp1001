@@ -1,0 +1,55 @@
+<html>
+<header>
+<style>
+.center
+{
+margin:auto;
+width:100%;
+background-color:#b0e0e6;
+}
+.myButton
+{
+background-color:#FFFFFF;
+border-style: solid;
+border-color:#0B3861;
+width:200px;
+height:50px;
+color:#0B3861;
+font-size:26px;
+}
+</style>
+<script type="text/javascript">
+function onSubmit() {
+	alert(document.getElementById("txtNumber").value);
+	return false;
+}
+</script>
+</header>
+
+<body>
+<div class="center">
+<table width="100%">
+	<tr>
+		<td width="20%">&nbsp;</td>
+		<td style="font-size:60px;">AWATS cloud demo</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>DDR情報検索</td>
+	</tr>
+</table>
+</div>
+<br>
+<form>
+<table width="300px">
+	<tr>
+		<td width="100px" style="font-size:120%;">DDR NO:</td>
+		<td><input type="text" name="txtNumber" id="txtNumber" style="width:160px;height:50px;font-size:26px;border-style: solid;border-color:#B3B3B3"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><button type="submit" name="btsubmit" onclick="onSubmit()" class="myButton" action="xxxxx">&nbsp;&nbsp;&nbsp;検索&nbsp;&nbsp;&nbsp;</button></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
